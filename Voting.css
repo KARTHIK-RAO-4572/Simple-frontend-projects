@@ -1,0 +1,60 @@
+#welcome-heading{
+    height: 55px;
+    background-color:lightpink ;
+    text-align: center;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+}
+#status-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:30px;
+    background-color: beige;
+    text-align: center;
+
+}
+#ballot-table{
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 35%;
+}
+.table-header{
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+.table-body-congress,.table-body-brs,.table-body-bjp,.table-body-bsp{
+    font-size: larger;
+    padding: 20px;
+    background-color:khaki;
+    font-weight: bold;
+}
+.vote-button{
+    border-radius: 25px;
+    padding: 15px;
+    background-color: orange;
+    width:100px;
+    font-weight: bolder;
+}
+.vote-button:hover{
+    background-color: rgb(106, 245, 103);
+}
+#show-result-button{
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 46%;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+#show-result-button:hover{
+    background-color: yellow;
+    color:black
+}
+.symbol{
+    height: 80px;
+    width:100px
+}

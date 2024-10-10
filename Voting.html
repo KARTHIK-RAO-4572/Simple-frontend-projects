@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Voting Machine</title>
+    <link rel="stylesheet" href="Voting.css">
+</head>
+<body>
+    <h1 id="welcome-heading">Electronic Voting Machine</h1>
+    <h2 id="status-heading">Cast your vote!</h2>
+    <div id="container">
+    <table id="ballot-table">
+        <tr >
+            <th class="table-header">S.no</th>
+            <th class="table-header">Symbol</th>
+            <th class="table-header">Party</th>
+            <th class="table-header">Vote</th>
+        </tr>
+        <tr  id="congress-row">
+            <td class="table-body-congress">1</td>
+            <td class="table-body-congress"><img src="INC_logo.png" class="symbol"></td>
+            <td class="table-body-congress">Congress</td>
+            <td class="table-body-congress"><button class="vote-button" onclick="addVote('+')">Vote</button></td>
+        </tr>
+        <tr  id="brs-row">
+            <td class="table-body-brs">2</td>
+            <td class="table-body-brs"><img src="BRS_logo.png" class="symbol"></td>
+            <td class="table-body-brs">BRS</td>
+            <td class="table-body-brs"><button class="vote-button" onclick="addVote('-')">Vote</button></td>
+        </tr>
+        <tr  id="bjp-row">
+            <td class="table-body-bjp">3</td>
+            <td class="table-body-bjp"><img src="BJP_logo.png" class="symbol"></td>
+            <td class="table-body-bjp">BJP</td>
+            <td class="table-body-bjp"><button class="vote-button" onclick="addVote('X')">Vote</button></td>
+        </tr>
+        <tr id="bsp-row">
+            <td class="table-body-bsp">4</td>
+            <td class="table-body-bsp"><img src="BSP_logo.png" class="symbol"></td>
+            <td class="table-body-bsp">BSP</td>
+            <td class="table-body-bsp"><button class="vote-button" onclick="addVote('$')">Vote</button></td>
+        </tr>
+    </table>
+    <button id="show-result-button" onclick="showResult()">Show Result</button>
+</div>
+    
+
+
+
+    <script src="Voting.js"></script>
+</body>
+</html>
